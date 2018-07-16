@@ -43,7 +43,7 @@ and: [Google Assistant]("https://developers.google.com/assistant/sdk/guides/libr
     (c:\Users\user_id\AppData\Local\Programs\Python\Python37-32\Scripts\)
     * Open a command window on your developement machine (Windows 10) and follow the instruction to configure new credentials.json file
     <pre><code>
-    google-oauthlib-tool --client-secrets \ c:\Users\user_id\Downloads\credentials.json --credentials \ \sample_sources\shared\src\main\res\raw\credentials.json --scope \ https://www.googleapis.com/auth/assistant-sdk-prototype –save 
+    google-oauthlib-tool --client-secrets c:\Users\user_id\Downloads\credentials.json --credentials \sample_sources\shared\src\main\res\raw\credentials.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype –save 
     </code>
     </pre>
 
