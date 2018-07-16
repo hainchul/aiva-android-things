@@ -28,6 +28,7 @@ and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/
 * <a href = "https://www.python.org/getit/"> Python3 latest Version</a>
 
 ## Set up Assistant SDK Device
+* <a href = "https://developer.android.com/things/hardware/raspberrypi"> Install Android Things on RPi 3</a>
 * <a href = "https://github.com/googlecodelabs/androidthings-googleassistant/archive/master.zip">Get the Sample Source</a>
 
 * <a href = "https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account">Configure a Developer Project and Account Settings</a>
