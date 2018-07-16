@@ -5,8 +5,8 @@ The AiVA-96 for Google Assistant provides far-field voice capture using the XMOS
 
 This repository privides a simple guide how to install and test the Google Assistant on Android things using RPi 3. 
 
-To find out more, visit: [wiziot]("https://wiziot")
-and: [Google Assistant]("https://developers.google.com/assistant/sdk/guides/library/python/?hl=en")
+To find out more, visit: <a ref = "https://wiziot">wiziot</a>
+and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/?hl=en">  Google Assistant</a>
 
 ---
 ## Pre-requirements
@@ -25,13 +25,13 @@ and: [Google Assistant]("https://developers.google.com/assistant/sdk/guides/libr
 [android_stduio]:https://developer.android.com/studio/
 [adnroid_sdk_manager]:https://developer.android.com/studio/intro/update#sdk-manager
 
-* [Python3 latest Version]("https://www.python.org/getit/")
+* <a href = "https://www.python.org/getit/"> Python3 latest Version</a>
 
 ## Set up Assistant SDK Device
-* [Get the Sample Source]("https://github.com/googlecodelabs/androidthings-googleassistant/archive/master.zip")
+* <a href = "https://github.com/googlecodelabs/androidthings-googleassistant/archive/master.zip">Get the Sample Source</a>
 
-* [Configure a Developer Project and Account Settings]("https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account")
-* [Register the Device Model]("https://developers.google.com/assistant/sdk/guides/library/python/embed/register-device")
+* <a href = "https://developers.google.com/assistant/sdk/guides/library/python/embed/config-dev-project-and-account">Configure a Developer Project and Account Settings</a>
+* <a href = "https://developers.google.com/assistant/sdk/guides/library/python/embed/register-device">Register the Device Model</a>
 
 * Configure the credentials
     * Install wheel script and google-auth-oauthlib
