@@ -3,7 +3,7 @@
 
 The AiVA-96 for Google Assistant provides far-field voice capture using the XMOS XVF3000 voice processor.
 
-This repository privides a simple guide how to install and test the Google Assistant on Android things using RPi 3. 
+This repository privides a simple guide how to install and test the Google Assistant on Android things using RPi 3 and AiVA-96 board. 
 
 To find out more, visit: <a ref = "https://wiziot">wiziot</a>
 and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/?hl=en">  Google Assistant</a>
@@ -15,9 +15,10 @@ and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/
 * Raspberyy PI 3
 * Micro SD Card / Micro SD Card Reader
 * HDMI Display 
-
+## Hardware Setup
+* Setup your hardware by following the Hardware Setup at: https://wiziot home page
 ## Testing Environments
-* Windows 10
+* Host PC : Windows 10
 * [Android Studio 3.0+][android_stduio]
     * [SDK Tool : 25.0.3 +][adnroid_sdk_manager]    
     * [SDK Platform : Android][adnroid_sdk_manager]
@@ -40,11 +41,11 @@ and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/
     <code>python -m pip install --upgrade pip setuptools wheel</code> 
     <code>python -m pip install --upgrade google-auth-oauthlib[tool] </code> </pre>
 
-    * Add the google-oauth-tool installed path to Environment Variables.
+    * Add google-oauth-tool installed path to Environment Variables.
     (c:\Users\user_id\AppData\Local\Programs\Python\Python37-32\Scripts\)
     * Open a command window on your developement machine (Windows 10) and follow the instruction to configure new credentials.json file
     <pre><code>
-    google-oauthlib-tool --client-secrets c:\Users\user_id\Downloads\credentials.json --credentials \sample_sources\shared\src\main\res\raw\credentials.json --scope https://www.googleapis.com/auth/assistant-sdk-prototype –save 
+    google-oauthlib-tool --client-secrets \ c:\Users\user_id\Downloads\credentials.json --credentials \new_folder\credentials.json --scope \ https://www.googleapis.com/auth/assistant-sdk-prototype –save 
     </code>
     </pre>
 
@@ -52,6 +53,7 @@ and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/
 ## Run the Starter Project
 * Open Android Studio and import project
 * Select the androidthings-googleassistant directory from the extracted zip file location
+* Move '/new_folder/credentials.json' file to '\sample_sources\shared\src\main\res\raw\' folder 
 * Open the step1-start-here module
 * Setup Device Config
     * Connect ADB Device (Raspberry PI 3)
