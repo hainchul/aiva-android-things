@@ -5,7 +5,7 @@ The AiVA-96 for Google Assistant provides far-field voice capture using the XMOS
 
 This repository privides a simple guide how to install and test the Google Assistant on Android things using RPi 3 and AiVA-96 board. 
 
-To find out more, visit: <a ref = "https://wiziot">wiziot</a>
+To find out more, visit: <a href = "https://wiziot">wiziot</a>
 and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/?hl=en">  Google Assistant</a>
 
 ---
