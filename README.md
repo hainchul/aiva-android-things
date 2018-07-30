@@ -45,7 +45,9 @@ and: <a ref ="https://developers.google.com/assistant/sdk/guides/library/python/
     (c:\Users\user_id\AppData\Local\Programs\Python\Python37-32\Scripts\)
     * Open a command window on your developement machine (Windows 10) and follow the instruction to configure new credentials.json file
     <pre><code>
-    google-oauthlib-tool --client-secrets \ c:\Users\user_id\Downloads\credentials.json --credentials \new_folder\credentials.json --scope \ https://www.googleapis.com/auth/assistant-sdk-prototype –save 
+    google-oauthlib-tool --client-secrets \ 
+    c:\Users\user_id\Downloads\credentials.json --credentials \new_folder\credentials.json --scope \ 
+    https://www.googleapis.com/auth/assistant-sdk-prototype –save 
     </code>
     </pre>
 
